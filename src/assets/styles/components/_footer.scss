@@ -1,0 +1,23 @@
+/* FOOTER */
+
+.footer {
+  padding: 2rem 0.2rem;
+  text-align: center;
+  background-color: #2f3131;
+  color: #fff;
+  margin-top: auto;
+
+  @include for-phone {
+    padding-bottom: 4rem;
+  }
+}
+
+.footer__link {
+  color: #76a9fa;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer__link:hover {
+  border-bottom: 2px solid #76a9fa;
+}

@@ -1,0 +1,24 @@
+/* BREADCRUMB */
+
+.breadcrumb {
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.breadcrumb__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.breadcrumb__item {
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
+
+.breadcrumb__item:before {
+  content: ">";
+  padding-right: 0.5rem;
+  color: #2d2e2e;
+  font-weight: normal;
+}

@@ -1,0 +1,19 @@
+/* RESPONSIVE */
+
+@mixin for-phone {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-down {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-down {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}

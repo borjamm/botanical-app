@@ -1,0 +1,33 @@
+/* BUTTON BACK TOP */
+
+.button-top {
+  display: block;
+  background-color: #96e6a1;
+  border-radius: 3px;
+  opacity: 0;
+  width: 50px;
+  z-index: 10;
+  text-align: center;
+  line-height: 11px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 60px;
+  right: 40px;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  pointer-events: none;
+
+  @include for-tablet-down {
+    bottom: 5px;
+    right: 5px;
+  }
+}
+
+.button-top--visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.button-top:hover {
+  background-color: #baecc1;
+}

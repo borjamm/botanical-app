@@ -1,0 +1,50 @@
+/* TOC (TABLE OF CONTENT) */
+
+.toc {
+  border: 1px solid #96e6a1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+  width: 100%;
+  gap: 15px;
+  margin: 2rem auto 4rem auto;
+  border-radius: 2px;
+  background-color: rgba(150, 230, 161, 0.3);
+}
+
+.toc__title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.toc__toggle {
+  color: #000;
+}
+
+.toc__navigation {
+  display: block;
+}
+
+.toc__navigation--hide {
+  display: none;
+}
+
+.toc__list {
+  list-style: none;
+}
+
+.toc__item {
+  margin: 0.5rem 0;
+  counter-increment: my-counter;
+}
+
+.toc__item::before {
+  content: counter(my-counter) ". ";
+  color: #000;
+  font-weight: bold;
+  padding-right: 1.5rem;
+  width: 5px;
+  display: inline-block;
+}

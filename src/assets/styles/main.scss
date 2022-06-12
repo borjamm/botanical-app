@@ -1,0 +1,39 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import variables
+ */
+
+@import "variables";
+@import "mixins";
+
+/**
+ * Import npm dependencies
+ * see: https://v2.parceljs.org/features/module-resolution/
+ * see commented examples below
+ */
+
+// @import "some-node-module";
+// @import "@some-company/some-node-module";
+
+/**
+ * Import layouts
+ * It's a best practice to use a different partial for each page
+ */
+
+@import "layouts/home";
+
+@import "components/header";
+@import "components/footer";
+@import "components/breadcrumb";
+@import "components/button";
+@import "components/card";
+@import "components/link";
+@import "components/toc";
+
+/**
+ * Do NOT include anything else in this file!
+ */
