@@ -2,7 +2,7 @@
 
 .button-top {
   display: block;
-  background-color: #96e6a1;
+  background-color: $primary;
   border-radius: 3px;
   opacity: 0;
   width: 50px;
@@ -29,5 +29,5 @@
 }
 
 .button-top:hover {
-  background-color: #baecc1;
+  background-color: $primary-light;
 }

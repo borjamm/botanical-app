@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: $font-family-poppins;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@ html {
   text-align: center;
   margin: 2rem 0 3rem 0;
   font-size: 2.5rem;
-  font-family: "Oleo Script Swash Caps", cursive;
+  font-family: $font-famiy-oleo;
 }
 
 .main__subtitle:before {
@@ -67,7 +67,7 @@ html {
   border-radius: 50px;
   border-bottom-width: 7px;
   border-bottom-style: solid;
-  color: #96e6a1;
+  color: $primary;
 }
 
 .main__subtitle-3 {
@@ -85,7 +85,7 @@ html {
   border-bottom-width: 4px;
   border-radius: 50px;
   bottom: 0;
-  color: #96e6a1;
+  color: $primary;
   content: "";
   left: 0;
   margin-right: 35px;
@@ -128,15 +128,15 @@ html {
   max-width: 400px;
   width: 100%;
   border-collapse: collapse;
-  box-shadow: 0 0 10px #0004;
+  box-shadow: 0 0 10px $black-dark;
 }
 
 .main__row:nth-child(2n + 1) {
-  background: #eee;
+  background: $gray-light;
 }
 
 .main__row:hover {
-  background: #96e6a1;
+  background: $primary;
 }
 
 .main__head,
@@ -144,12 +144,12 @@ html {
   text-align: center;
   width: 200px;
   padding: 0.5rem;
-  border: 1px solid #ddd;
+  border: 1px solid $gray;
 }
 
 .main__head {
-  background: #000;
-  color: #fff;
+  background: $black;
+  color: $white;
 }
 
 .main__head-row {

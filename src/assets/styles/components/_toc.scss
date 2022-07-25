@@ -1,7 +1,7 @@
 /* TOC (TABLE OF CONTENT) */
 
 .toc {
-  border: 1px solid #96e6a1;
+  border: 1px solid $primary;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   gap: 15px;
   margin: 2rem auto 4rem auto;
   border-radius: 2px;
-  background-color: rgba(150, 230, 161, 0.3);
+  background-color: $green-rgba;
 }
 
 .toc__title {
@@ -20,7 +20,7 @@
 }
 
 .toc__toggle {
-  color: #000;
+  color: $black;
 }
 
 .toc__navigation {
@@ -42,7 +42,7 @@
 
 .toc__item::before {
   content: counter(my-counter) ". ";
-  color: #000;
+  color: $black;
   font-weight: bold;
   padding-right: 1.5rem;
   width: 5px;
